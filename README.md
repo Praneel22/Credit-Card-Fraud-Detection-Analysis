@@ -1,143 +1,102 @@
-# Credit-Card-Fraud-Detection-Analysis
-Built a Python-based ETL pipeline using Pandas to process 284K+ credit card transactions and analyze fraud patterns. Developed an interactive Tableau dashboard to visualize fraud vs normal transactions, fraud spikes over time, and transaction amount anomalies to support fraud detection insights.
 # Credit Card Fraud Detection Analysis
 
-## 📊 Live Dashboard
+This project analyzes credit card transaction data to identify fraud patterns using **Python, Pandas, and Tableau**.  
+A Python-based **ETL (Extract, Transform, Load) pipeline** processes the dataset before building an interactive dashboard to explore fraud trends and anomalies.
 
-Explore the interactive Tableau dashboard here:
-
-🔗 https://public.tableau.com/app/profile/praneel.reddy.kanduri/viz/fraud_detection_dashboard_twbx/CreditCardFraudDetectionAnalysis?publish=yes
-
----
-
-# 📌 Project Overview
-
-This project analyzes credit card transactions to detect fraud patterns using **Python, Pandas, and Tableau**.
-A simple **ETL pipeline** was implemented to extract, clean, and transform transaction data before visualizing it through an interactive dashboard.
-
-The dataset contains **284,807 transactions**, of which **492 are fraudulent**, representing only **0.17% of total transactions**, making it a highly **imbalanced dataset**. ([riverml.xyz][1])
-
-The goal of this project is to explore fraud behavior and uncover patterns that could help identify suspicious transactions.
+🔗 **Live Dashboard:**  
+https://public.tableau.com/app/profile/praneel.reddy.kanduri/viz/fraud_detection_dashboard_twbx/CreditCardFraudDetectionAnalysis
 
 ---
 
-# 🛠 Technologies Used
+## Project Overview
 
-* **Python**
-* **Pandas**
-* **Tableau**
-* **ETL Pipeline**
-* **Data Visualization**
+The dataset contains **284,807 credit card transactions**, including **492 fraudulent transactions (~0.17%)**, making it a highly **imbalanced dataset**.  
+
+This project focuses on analyzing transaction behavior to identify patterns associated with fraudulent activity.
+
+Key objectives:
+
+- Process raw transaction data using a **Python ETL pipeline**
+- Perform **exploratory data analysis**
+- Build a **Tableau dashboard** to visualize fraud patterns
+- Identify anomalies in transaction amounts and time patterns
 
 ---
 
-# 📂 Project Structure
+## Technologies Used
 
-```
+- **Python**
+- **Pandas**
+- **Tableau**
+- **Git & GitHub**
+
+---
+
+## Project Structure
+
+
 credit-card-fraud-detection
 │
 ├── data
-│   └── creditcard.csv
+│ └── creditcard.csv
 │
 ├── scripts
-│   ├── extract.py
-│   ├── transform.py
-│   ├── load.py
-│   └── etl_pipeline.py
+│ ├── extract.py
+│ ├── transform.py
+│ ├── load.py
+│ └── etl_pipeline.py
 │
 ├── dashboard
-│   └── fraud_detection_dashboard.twbx
+│ └── fraud_detection_dashboard.twbx
 │
 └── README.md
-```
+
 
 ---
 
-# ⚙️ ETL Pipeline
+## ETL Pipeline
 
 The ETL pipeline consists of three stages:
 
 ### Extract
-
 Loads the dataset using **Pandas**.
 
 ### Transform
-
 Performs:
-
-* Data inspection
-* Fraud vs normal distribution analysis
-* Feature exploration
+- Data inspection
+- Fraud vs normal transaction analysis
+- Dataset structure exploration
 
 ### Load
-
 Exports processed data for visualization in **Tableau**.
 
 ---
 
-# 📈 Dashboard Insights
+## Dashboard Insights
 
-The dashboard includes three key analyses:
+The Tableau dashboard includes three main analyses:
 
-### 1️⃣ Fraud vs Normal Transactions
+**Fraud vs Normal Transactions**  
+Visualizes the class imbalance between legitimate and fraudulent transactions.
 
-Shows the extreme **class imbalance** between legitimate and fraudulent transactions.
+**Fraud Transactions Over Time**  
+Shows temporal spikes in fraud activity.
 
-### 2️⃣ Fraud Transactions Over Time
-
-Highlights **temporal spikes in fraud activity**, showing that fraudulent transactions occur in bursts rather than uniformly.
-
-### 3️⃣ Transaction Amount Distribution
-
-Displays how fraudulent transactions differ in **amount distribution compared to normal transactions**.
+**Transaction Amount Distribution**  
+Highlights differences in transaction amounts between fraud and normal transactions.
 
 ---
 
-# 🔍 Key Findings
+## Key Findings
 
-* Fraud transactions represent **only ~0.17% of total transactions**
-* Fraud tends to occur in **clusters over time**
-* Fraudulent transactions show **higher variability in transaction amounts**
-
----
-
-# 🚀 How to Run the Project
-
-Clone the repository:
-
-```
-git clone https://github.com/your-username/credit-card-fraud-detection.git
-```
-
-Run the ETL pipeline:
-
-```
-python scripts/etl_pipeline.py
-```
-
-Open the Tableau dashboard:
-
-```
-dashboard/fraud_detection_dashboard.twbx
-```
+- Fraud transactions represent **~0.17% of the dataset**
+- Fraud tends to occur in **short bursts over time**
+- Fraudulent transactions show **greater variability in transaction amounts**
 
 ---
 
-# 💼 Resume Description
 
-**Credit Card Fraud Detection Analysis | Python, Pandas, Tableau**
+## Author
 
-* Built a Python **ETL pipeline** to process **284K+ credit card transactions**
-* Performed **data cleaning and transformation using Pandas**
-* Developed **interactive Tableau dashboards** to analyze fraud patterns
-* Identified **temporal fraud spikes and anomalous transaction behavior**
-
----
-
-# 📬 Author
-
-**Praneel Reddy Kanduri**
-
-Data Analyst | Python | SQL | Tableau
-
-[1]: https://riverml.xyz/0.11.1/api/datasets/CreditCard/?utm_source=chatgpt.com "CreditCard - River"
+**Praneel Reddy Kanduri**  
+Aspiring Data Analyst | Python | SQL | Tableau
