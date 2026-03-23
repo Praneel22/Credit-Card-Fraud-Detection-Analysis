@@ -48,7 +48,7 @@ credit-card-fraud-detection
 │
 ├── dashboard
 │ └── fraud_detection_dashboard.twbx
-│
+
 └── README.md
 
 
