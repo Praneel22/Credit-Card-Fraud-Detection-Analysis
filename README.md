@@ -32,28 +32,6 @@ Key objectives:
 
 ---
 
-## Project Structure
-
-
-credit-card-fraud-detection
-│
-├── data
- └── creditcard.csv
-
-├── scripts
- ├── extract.py
- ├── transform.py
- ├── load.py
- └── etl_pipeline.py
-
-├── dashboard
- └── fraud_detection_dashboard.twbx
-
-└── README.md
-
-
----
-
 ## ETL Pipeline
 
 The ETL pipeline consists of three stages:
