@@ -38,16 +38,16 @@ Key objectives:
 credit-card-fraud-detection
 │
 ├── data
-│ └── creditcard.csv
-│
+ └── creditcard.csv
+
 ├── scripts
-│ ├── extract.py
-│ ├── transform.py
-│ ├── load.py
-│ └── etl_pipeline.py
-│
+ ├── extract.py
+ ├── transform.py
+ ├── load.py
+ └── etl_pipeline.py
+
 ├── dashboard
-│ └── fraud_detection_dashboard.twbx
+ └── fraud_detection_dashboard.twbx
 
 └── README.md
 
